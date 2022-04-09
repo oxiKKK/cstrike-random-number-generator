@@ -1,6 +1,8 @@
 # cstrike-random-number-generator
 A reverse-engineered version of RNG (Random Number Generator) algorithm that is being used within cstrike.
 
+The code is reverse-engineered from the client.dll using IDA pro.
+
 # Description
 The code that is presented here is used to calculate weapon spread. Therefore, it can be used to simulate frame-perfect spread values given the same seed as original. The engine iself also has a RNG built in it (*RandomFloat* & *RandomLong* functions), however these ones differs from our one.
 
